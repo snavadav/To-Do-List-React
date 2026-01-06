@@ -57,56 +57,6 @@ body {
     padding: 15px;
 }
 
-
-.container-login {
-    min-height: 80vh;
-    /* ocupa toda la altura de la ventana */
-    display: flex;
-    justify-content: center;
-    /* centra horizontal */
-    align-items: center;
-    /* centra vertical */
-
-    background-color: #f2f2f2;
-    /* fondo de la página */
-}
-
-/* 2️⃣ Caja del login */
-.container-login-input {
-    background-color: white;
-    padding: 2rem;
-    width: 320px;
-
-    display: flex;
-    flex-direction: column;
-    gap: 0.75rem;
-    /* espacio entre elementos */
-
-    border-radius: 8px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-
-.container-login-input h2 {
+.title-to-do-list {
     text-align: center;
-    margin-bottom: 1rem;
-}
-
-.container-login-input label {
-    font-weight: bold;
-}
-
-.container-login-input input {
-    padding: 0.5rem;
-    font-size: 1rem;
-}
-
-.button-login {
-    background-color: #16a34a;
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    padding: 0.7rem;
-    box-shadow: 0 px 12px rgba(0, 0, 0, 0.1);
 }
